@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+		<AssemblyName>MiniMp3Managed.Posix</AssemblyName>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <DefineConstants>$(DefineConstants);PLATFORM_POSIX</DefineConstants>
+		<RootNamespace>MiniMp3Managed</RootNamespace>
+  </PropertyGroup>
+
+</Project>
